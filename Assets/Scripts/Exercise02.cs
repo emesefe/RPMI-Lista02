@@ -12,7 +12,6 @@ public class Exercise02 : MonoBehaviour
         if (year % 12 == 0)
         {
             Debug.Log("Monkey");
-            
         }
         else if (year % 12 == 1)
         {
@@ -46,7 +45,7 @@ public class Exercise02 : MonoBehaviour
         {
             Debug.Log("Dragon");
         }
-        else if (year % 12 == 9)
+        else if (year % 12 == 7)
         {
             Debug.Log("Snake");
         }

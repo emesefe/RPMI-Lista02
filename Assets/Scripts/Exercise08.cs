@@ -13,11 +13,11 @@ public class Exercise08 : MonoBehaviour
         {
             Debug.Log("You have more than 100 points");
         }
-        else if (points > 75)
+        else if (points > 75) // Ya sé que tengo <= 100
         {
             Debug.Log("You have more than 75 points, but less than or equal to 100");
         }
-        else if (points > 50)
+        else if (points > 50) // Ya sé que tengo <= 100 pero además <= 75
         {
             Debug.Log("You have more than 50 points, but less than or equal to 75");
         }
